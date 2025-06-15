@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gamer shop</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="bg-light py-3">
+    <nav class="container navbar navbar-expand-lg navbar-light" role="navigation" aria-label="Menú principal">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="img/logo.png" alt="Logo Gamer Shop" height="70" class="me-2" />
+        <strong>Gamer shop</strong>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNav" aria-controls="menuNav" aria-expanded="false" aria-label="Mostrar menú">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menuNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#ofertas">Ir a Ofertas</a></li>
+          <li class="nav-item"><a class="nav-link" href="Pages/contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <section class="mt-4" aria-label="Carrusel de promociones">
+    <div id="mainCarousel" class="carousel slide container" data-bs-ride="carousel">
+      <div class="carousel-inner rounded">
+        <div class="carousel-item active">
+          <img src="img/slide.jpg" class="d-block w-100" alt="Promoción del videojuego FIFA" />
+        </div>
+        <div class="carousel-item">
+          <img src="img/slide2.jpg" class="d-block w-100" alt="Promoción del videojuego Call of Duty" />
+        </div>
+        <div class="carousel-item">
+          <img src="img/slide3.jpg" class="d-block w-100" alt="Promoción del videojuego GTA" />
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#mainCarousel" data-bs-slide="prev" aria-label="Anterior">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#mainCarousel" data-bs-slide="next" aria-label="Siguiente">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </section>
+
+  <main id="ofertas" class="container my-5">
+    <h2 class="mb-4">Videojuegos en Oferta</h2>
+    <div class="row g-4">
+
+      <div class="col-12 col-md-4">
+        <div class="card h-100">
+          <img src="img/fifa.jpg" class="card-img-top" alt="Portada del videojuego FIFA 25" />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">FIFA 25</h5>
+            <p class="card-text flex-grow-1">Juego de fútbol para PS5 y Xbox. Gráficos mejorados y nuevos modos de juego.</p>
+            <span class="fw-bold">$40 usd</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-4">
+        <div class="card h-100">
+          <img src="img/cod.jpg" class="card-img-top" alt="Portada del videojuego Call of Duty" />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Call of Duty: Modern Warfare</h5>
+            <p class="card-text flex-grow-1">Shooter de guerra en primera persona para PC y consolas.</p>
+            <span class="fw-bold">$35 usd</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-4">
+        <div class="card h-100">
+          <img src="img/gta.jpg" class="card-img-top" alt="Portada del videojuego GTA V" />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">GTA V</h5>
+            <p class="card-text flex-grow-1">Mundo abierto para explorar, con misiones, autos y acción.</p>
+            <span class="fw-bold">$20 usd</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-4">
+        <div class="card h-100">
+          <img src="img/witcher3.jpg" class="card-img-top" alt="Portada del videojuego The Witcher 3" />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">The Witcher 3: Wild Hunt</h5>
+            <p class="card-text flex-grow-1">RPG de mundo abierto con historia épica y gráficos impresionantes.</p>
+            <span class="fw-bold">$30 usd</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-4">
+        <div class="card h-100">
+          <img src="img/minecraft.jpg" class="card-img-top" alt="Portada del videojuego Minecraft" />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Minecraft</h5>
+            <p class="card-text flex-grow-1">Crea y explora mundos infinitos en este clásico de construcción y aventura.</p>
+            <span class="fw-bold">$25 usd</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-4">
+        <div class="card h-100">
+          <img src="img/eldenring.jpg" class="card-img-top" alt="Portada del videojuego Elden Ring" />
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Elden Ring</h5>
+            <p class="card-text flex-grow-1">Juego de acción RPG en un mundo oscuro creado por George R.R. Martin.</p>
+            <span class="fw-bold">$50 usd</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer id="contacto" class="bg-dark text-light py-4">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+      <div>
+        <h5>Gamer shop</h5>
+        <p class="mb-0">© 2025 Todos los derechos reservados.</p>
+      </div>
+      <div class="mt-3 mt-md-0">
+        <a href="#" class="text-light me-3" title="Facebook"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a>
+        <a href="#" class="text-light me-3" title="Instagram"><i class="fab fa-instagram fa-lg" aria-hidden="true"></i></a>
+        <a href="#" class="text-light" title="Twitter"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
